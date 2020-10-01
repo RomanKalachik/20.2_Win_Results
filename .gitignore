@@ -50,3 +50,4 @@ AppPackages/
 /.vs/DataGenerator/v16/Server/sqlite3
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+/GrapeCity/.vs/WinCharts/v15/Server/sqlite3

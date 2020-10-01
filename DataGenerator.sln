@@ -5,7 +5,17 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{A3BAD4FB-32D3-482B-864A-203436CA155D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts", "WinCharts\WinCharts.csproj", "{76AA13E3-E724-4F33-BBAE-B929CEF1BF8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_DX", "WinCharts\WinCharts_DX.csproj", "{76AA13E3-E724-4F33-BBAE-B929CEF1BF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_C1", "GrapeCity\WinCharts_C1.csproj", "{BE21A934-7273-4D44-A5B6-42D9664B640E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Infra", "Infragistics\WinCharts_Infra.csproj", "{341B4B80-74DD-434C-AFC4-671A2CBCCF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Stema", "Stema\WinCharts_Stema.csproj", "{F6D05DD7-796B-4C4C-B6AB-7627043165C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Syncfusion", "Syncfusion\WinCharts_Syncfusion.csproj", "{3EA7E068-06D9-46FE-A05C-2942B2261D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Telerik", "Telerik\WinCharts_Telerik.csproj", "{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{76AA13E3-E724-4F33-BBAE-B929CEF1BF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76AA13E3-E724-4F33-BBAE-B929CEF1BF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76AA13E3-E724-4F33-BBAE-B929CEF1BF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE21A934-7273-4D44-A5B6-42D9664B640E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE21A934-7273-4D44-A5B6-42D9664B640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE21A934-7273-4D44-A5B6-42D9664B640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE21A934-7273-4D44-A5B6-42D9664B640E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341B4B80-74DD-434C-AFC4-671A2CBCCF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341B4B80-74DD-434C-AFC4-671A2CBCCF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341B4B80-74DD-434C-AFC4-671A2CBCCF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341B4B80-74DD-434C-AFC4-671A2CBCCF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
