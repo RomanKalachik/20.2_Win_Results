@@ -18,7 +18,17 @@ namespace WinCharts
         public Form1()
         {
             InitializeComponent();
+            Load += (s, e) =>
+            {
+                BeginInvoke((Action)(() =>
+                {
+                    string[] args = Environment.GetCommandLineArgs();
+                    if (args.Length > 1) Start(null, null);
+                }));
+            };
         }
+
+
         void bindData(bool allowResample)
         {
             Series series = new Series();
@@ -33,9 +43,10 @@ namespace WinCharts
                 d2d.ZoomingOptions.AxisYMaxZoomPercent = 100000000;
             }
         }
-        void button1_Click(object sender, EventArgs e)
+        public void Start(object sender, EventArgs e)
         {
             MeasureAll(null, null);
+            System.Windows.Forms.Application.Exit();
         }
         void ClearChart()
         {
@@ -192,6 +203,7 @@ namespace WinCharts
             xyd2d.EnableAxisYScrolling = true;
             for (int i = 0; i < 25; i++)
             {
+                xyd2d.Scroll(HorizontalScrollingDirection.Left, VerticalScrollingDirection.None);
                 DoEvents();
             }
         }

@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Infra", "Infragis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Stema", "Stema\WinCharts_Stema.csproj", "{F6D05DD7-796B-4C4C-B6AB-7627043165C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Syncfusion", "Syncfusion\WinCharts_Syncfusion.csproj", "{3EA7E068-06D9-46FE-A05C-2942B2261D96}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCharts_Telerik", "Telerik\WinCharts_Telerik.csproj", "{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6D05DD7-796B-4C4C-B6AB-7627043165C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EA7E068-06D9-46FE-A05C-2942B2261D96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8BD468-A7F2-4D63-A0BA-3FFF4E8714F6}.Release|Any CPU.ActiveCfg = Release|Any CPU

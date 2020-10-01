@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DataGenerator">
-      <HintPath>..\DataGenerator\bin\Debug\DataGenerator.dll</HintPath>
-    </Reference>
     <Reference Include="Infragistics4.Win.DataVisualization.Shared.v20.1, Version=20.1.20201.42, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Win.DataVisualization.UltraDataChart.v20.1, Version=20.1.20201.42, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
     <Reference Include="Infragistics4.Win.Portable.Core.v20.1, Version=20.1.20201.42, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
@@ -73,6 +70,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataGenerator\DataGenerator.csproj">
+      <Project>{a3bad4fb-32d3-482b-864a-203436ca155d}</Project>
+      <Name>DataGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

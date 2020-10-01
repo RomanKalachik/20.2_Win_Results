@@ -19,6 +19,14 @@ namespace WinCharts
         public Form1()
         {
             InitializeComponent();
+            Load += (s, e) =>
+            {
+                BeginInvoke((Action)(() =>
+                {
+                    string[] args = Environment.GetCommandLineArgs();
+                    if (args.Length > 1) Start(null, null);
+                }));
+            };
         }
         void bindData()
         {
@@ -27,9 +35,11 @@ namespace WinCharts
             fastLine.YValues.DataMember = "Value";
             fastLine.DataSource = chartSource;
         }
-        void button3_Click(object sender, EventArgs e)
+        public void Start(object sender, EventArgs e)
         {
             MeasureAll(null, null);
+            System.Windows.Forms.Application.Exit();
+
         }
         void ClearChart()
         {

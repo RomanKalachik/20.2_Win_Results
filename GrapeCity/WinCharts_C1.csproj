@@ -38,9 +38,6 @@
     <Reference Include="C1.Win.C1Chart.4.5.2, Version=4.5.20202.438, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL" />
     <Reference Include="C1.Win.C1DX.4.5.2, Version=4.5.20202.438, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04" />
     <Reference Include="C1.Win.FlexChart.4.5.2, Version=4.5.20202.438, Culture=neutral, PublicKeyToken=3aa2920c09e0aefd, processorArchitecture=MSIL" />
-    <Reference Include="DataGenerator">
-      <HintPath>..\DataGenerator\bin\Debug\DataGenerator.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -74,6 +71,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataGenerator\DataGenerator.csproj">
+      <Project>{a3bad4fb-32d3-482b-864a-203436ca155d}</Project>
+      <Name>DataGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
